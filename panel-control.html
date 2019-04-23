@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Panel de control</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="iconos.css">
+</head>
+
+<body>
+<!-- Navegador -->
+<div class="row">
+	<div class="col-12">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light only-small">
+  <a class="navbar-brand" href="#"><img src="img/Objeto inteligente vectorial@1x.png" class="img-fluid logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" data-toggle="modal" data-target="#perfil">Perfil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#bonositems" href="#">Bonos de items</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#bonosexpirados" href="#">Bonos expirados</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#itemsrecomendados" href="#">Items recomendados</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#cambiarpass" href="#">Cambiar contraseña</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#chat" href="#">Chat en linea</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-2 off-small2" id="menu-principal">
+	<img src="img/Objeto inteligente vectorial@1x.png">
+	<ul>
+		<li><a data-toggle="modal" data-target="#perfil">Perfil</a></li>
+		<li><a data-toggle="modal" data-target="#bonositems">Bonos de items</a></li>
+		<li><a data-toggle="modal" data-target="#bonosexpirados">Bonos expirados</a></li>
+		<li><a data-toggle="modal" data-target="#itemsrecomendados">Items recomendados</a></li>
+		<li><a data-toggle="modal" data-target="#cambiarpass">Cambiar contraseña</a></li>
+		<li><a data-toggle="modal" data-target="#chat">Chat en linea</a></li>
+	</ul>
+	<img src="img/circulo.png" class="img-fluid">
+	<div class="text-center" style="font-size: 21px;"><p><span class="color-1"><strong>Recomienda</strong></span> ya!!</p></div>
+	</div>
+	<div class="col-lg-10 col-sm-12">
+		<div class="row bg-color-1" id="admin">
+			<div class="col-lg-4 col-sm-12" id="other-option">
+				<a href="#">Panel de control</a>
+			</div>
+			<div class="offset-4 off-small">
+				
+			</div>
+			<div class="col-lg-4 col-sm-12" id="sub-menu">
+			<form class="form-inline my-2 my-lg-0 medium-none">
+				  <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+				  <button class="btn btn-outline-success my-2 my-sm-0 bg-white" type="submit"><span class="icon-search"></span></button>
+				</form>
+				
+			</div>
+		</div>
+		<div class="row bg-color-1 text-white">
+			<div class="col-lg-4" id="ubicacion-actual">
+				<p><strong>PANEL DE USUARIO</strong></p>
+			</div>
+			<div class="offset-5"></div>
+			<div class="col-lg-3">
+				<span class="icon-bubble"> Nombre Usuario</span>
+				<div class="text-left bonos" id="valores">
+					<span class="icon-credit-card" style="font-size: 18px;"></span>
+					<p>Total canje 0 bs</p>
+					<p><br>Total bono 0 bs</p> 
+				</div>
+				
+			</div>
+		</div>
+		<div class="row" id="dashboard-panel">
+			<div class="col-12">
+				<h3><strong>Perfil</strong></h3>
+		
+				
+			</div>
+			<div class="row">
+					<div class="col-12">
+						<form id="form-perfil">
+							<input type="text" class="form-control">
+							<input type="text" class="form-control">
+							<input type="text" class="form-control">
+							<div class="form-group form-row">
+							<div class="col-8"><input type="url" placeholder="Ruta Fotografía" class="form-control"></div>
+							<div class="col-4"><button class="btn btn-primary bg-color-1" style="border: none;">Subir</button></div>
+							</div>
+							<div class="text-center"><button class="btn btn-primary bg-color-1" style="border: none;">Actualizar</button></div>
+						</form>
+					</div>
+				</div>
+		</div>
+
+	</div>
+</div>
+<footer>
+	<div id="footer" class="footer-usuarios">
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<h1>Bolivia:</h1>
+				<p><span class="icon-phone"></span> (591-3) 359 6671 (INT. 501) | 71092872</p>
+				<p><span class="icon-envelop"></span> INFO@WITRELBOLIVIA.COM</p>
+				<p><span class="icon-location"></span> Calle Puerto Pailas, 82, Santa Cruz</p>
+				<p><span class="icon-earth"></span> witrelbolivia.com</p>
+				<p>Santa Cruz | Bolivia</p>
+			</div>
+			<div class="col-lg-8">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15196.255610114735!2d-63.1974772!3d-17.7886936!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x26d6c1d6dc79dfff!2sWritel+Bolivia+SRL!5e0!3m2!1ses-419!2scl!4v1550281250034" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		
+			</div>
+		</div>
+		
+	</div>
+	<div class="row" id="derechos">
+		<div class="col-lg-8 col-sm-12">
+			<p>&copy; 2019 Todos los derechos reservados. Sitio elaborado por www.witrelbolivia.com</p>
+		</div>
+		<div class="col-4" id="social">
+			<a href="#"><span class="icon-facebook"></span></a>
+			<a href="#"><span class="icon-youtube"></span></a>
+			<a href="#"><span class="icon-twitter"></span></a>
+			<a href="#"><span class="icon-instagram"></span></a>
+			
+			
+		</div>
+		</div>
+</footer>
+
+
+<!-- Bonos Items -->
+<div class="modal fade" id="bonositems" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">BONOS</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center bonos-padding">
+        <table class="tg">
+		  <tr>
+			<th class="tg-fymr">#</th>
+			<th class="tg-0pky">Items</th>
+			<th class="tg-0pky">Recomendado</th>
+			<th class="tg-0pky">Asignación del bono</th>
+			<th class="tg-0lax">Ciudad</th>
+			<th class="tg-0lax">Bono Items</th>
+			<th class="tg-0lax">Bono Canje</th>
+			<th class="tg-0lax">Estado</th>
+			<th class="tg-0lax">Expira en</th>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky"></td>
+			<td class="tg-0pky"></td>
+			<td class="tg-0pky"></td>
+			<td class="tg-0pky"></td>
+			<td class="tg-0lax"></td>
+			<td class="tg-0lax"></td>
+			<td class="tg-0lax"></td>
+			<td class="tg-0lax"></td>
+			<td class="tg-0lax"></td>
+		  </tr>
+		</table>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bonos Items -->
+<div class="modal fade" id="bonosexpirados" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">BONOS EXPIRADOS</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center bonos-padding">
+        <table class="tg">
+		  <tr>
+			<th class="tg-fymr">#</th>
+			<th class="tg-0pky">Items</th>
+			<th class="tg-0pky">Recomendado</th>
+			<th class="tg-0pky">Asignación del bono</th>
+			<th class="tg-0lax">Ciudad</th>
+			<th class="tg-0lax">Bono Items</th>
+			<th class="tg-0lax">Bono Canje</th>
+			<th class="tg-0lax">Estado</th>
+			<th class="tg-0lax">Expira en</th>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky"></td>
+			<td class="tg-0pky"></td>
+			<td class="tg-0pky"></td>
+			<td class="tg-0pky"></td>
+			<td class="tg-0lax"></td>
+			<td class="tg-0lax"></td>
+			<td class="tg-0lax"></td>
+			<td class="tg-0lax"></td>
+			<td class="tg-0lax"></td>
+		  </tr>
+		</table>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Items Recomedados -->
+<div class="modal fade" id="itemsrecomendados" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">ITEMS RECOMENDADOS</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center bonos-padding">
+        <table class="tg">
+		  <tr>
+			<th class="tg-fymr">#</th>
+			<th class="tg-0pky">Item</th>
+			<th class="tg-0pky">Fecha de recomendación</th>
+			<th class="tg-0pky">Recomendado</th>
+			<th class="tg-0lax">Telefono Recomendado</th>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky"></td>
+			<td class="tg-0pky"></td>
+			<td class="tg-0pky"></td>
+			<td class="tg-0pky"></td>
+			<td class="tg-0lax"></td>
+		  </tr>
+		</table>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cambiar Contraseña -->
+<div class="modal fade" id="cambiarpass" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">	
+        <h5 class="modal-title">Cambiar contraseña</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center" style="padding-left: 50px; padding-right: 50px;">
+        <form>
+        	<input type="text" class="form-control">
+        	<input type="text" class="form-control">
+        	<input type="text" class="form-control">
+        	<button class="btn btn-primary bg-color-1" style="border: none;">Enviar</button>
+        </form>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Chat -->
+<div class="modal fade" id="chat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Bandeja de entrada</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body" id="chat-online">
+      	<div class="row" id="chat-send">
+      		<div class="col-12" id="nombre-chat">
+      			<p><strong>Nombre chat</strong></p>
+      		</div>
+      		<div class="col-12" id="pantalla-chat">
+      			
+      		</div>
+      		<div class="col-12" id="enviar-chat">
+      			<form class="form-row">
+      		
+      				<div class="col-9">
+      					<input type="text" placeholder="Escribir Mensaje" class="form-control" width="100%">
+      				</div>
+      				<div class="col-3">
+      					<button type="submit" class="bg-color-1 btn btn-primary" id="enviar">Enviar</button>
+      				</div>
+      			</form>
+      		</div>
+      	</div>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

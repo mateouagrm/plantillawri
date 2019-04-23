@@ -1,0 +1,549 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Admin</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="iconos.css">
+</head>
+
+<body>
+<!-- Navegador -->
+<div class="row">
+	<div class="col-12">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light only-small">
+  <a class="navbar-brand" href="#"><img src="img/Objeto inteligente vectorial@1x.png" class="img-fluid logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" data-toggle="modal" data-target="#usuarios">Usuarios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#items" href="#">Items</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#vategoria" href="#">Categoría</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#subcategoria" href="#">Sub-Categoría</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#ciudad" href="#">Ciudad</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#banner" href="#">Banner</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#roles" href="#">Roles</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#permisos" href="#">Permissions</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#instrucciones" href="#">Instrucciones</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-2 off-small2" id="menu-principal">
+	<img src="img/Objeto inteligente vectorial@1x.png">
+	<ul>
+		<li><a data-toggle="modal" data-target="#usuarios">Usuario</a></li>
+		<li><a data-toggle="modal" data-target="#items">Items</a></li>
+		<li><a data-toggle="modal" data-target="#categoria">Categoría</a></li>
+		<li><a data-toggle="modal" data-target="#subcategoria">Sub-Categoría</a></li>
+		<li><a data-toggle="modal" data-target="#ciudad">Ciudad</a></li>
+		<li><a data-toggle="modal" data-target="#banner">Banner</a></li>
+		<li><a data-toggle="modal" data-target="#roles">Roles</a></li>
+		<li><a data-toggle="modal" data-target="#permisos">Permissions</a></li>
+		<li><a data-toggle="modal" data-target="#instrucciones">Instrucciones</a></li>
+	</ul>
+		
+	</div>
+	<div class="col-lg-10 col-sm-12">
+		<div class="row bg-color-1" id="admin">
+			<div class="col-lg-4 col-sm-12" id="other-option">
+				<a href="#">Reporte</a> - <a href="#">Area Cliente</a>
+			</div>
+			<div class="offset-4 off-small">
+				
+			</div>
+			<div class="col-lg-4 col-sm-12" id="sub-menu">
+				<span class="icon-bell" style="display: inline-block"></span>
+				<span class="icon-bubble"></span>
+				<div class="dropdown show">
+				  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Usuarios
+				  </a>
+
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+					<a class="dropdown-item" href="#">Something else here</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<div class="row bg-color-1 text-white">
+			<div class="col-lg-12" id="ubicacion-actual">
+				<p>Inicio > Admin</p>
+			</div>
+		</div>
+		<div class="row" id="dashboard-admin">
+			<div class="col-12" id="dash-1">
+				<h3><strong>Instrucción</strong></h3>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"><span class="icon-plus"></span> Agregar</button>
+				 <form class="form-inline my-2 my-lg-0 medium-none">
+				  <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+				  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><span class="icon-search"></span></button>
+				</form>
+				
+			</div>
+			<div class="row">
+					<div class="col-12">
+						<table class="tg">
+						  <tr>
+							<th class="tg-1wig">#</th>
+							<th class="tg-0lax"><span style="font-weight:bold">Imagen</span></th>
+							<th class="tg-0lax"><span style="font-weight:bold">PDF</span></th>
+							<th class="tg-0lax"><span style="font-weight:bold">Acciones</span></th>
+						  </tr>
+						  <tr>
+							<td class="tg-0lax">1</td>
+							<td class="tg-0lax"><img src="img/img-example.png" class="img-fluid"></td>
+							<td class="tg-0lax" width="500px;">EX-SE.pdf</td>
+							<td class="tg-0lax"><button class="btn btn-primary"><span class="icon-pencil"></span> Editar</button><button class="btn btn-danger icon-bin2"> Eliminar</button></td>
+						  </tr>
+						  <tr>
+							<td class="tg-0lax">2</td>
+							<td class="tg-0lax">GPS PARA VEHICULOS</td>
+							<td class="tg-0lax">Cochabamba</td>
+							<td class="tg-0lax"><button class="btn btn-primary"><span class="icon-pencil"></span> Editar</button><button class="btn btn-danger icon-bin2"> Eliminar</button></td>
+						  </tr>
+						</table>
+					</div>
+				</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+<!-- Agregar -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">AGREGAR BANNER</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+        <h5>SUBIR FOTO PRINCIPAL DEL INSTRUCCION</h5>
+        <form>
+        <button class="btn btn-primary bg-color-1" style="border: none;">Selecccionar Archivo</button>
+        <br><br>
+        <img src="img/esi.png" class="img-fluid">
+        <p>Tamaño recomendado 400px * 450px. <br> Peso máximo de la foto 2MB</p>
+        <h5>SUBIR PDF PRINCIPAL DEL INSTRUCCION</h5>
+        <button class="btn btn-primary bg-color-1" style="border: none;">Seleccionar Archivo</button>
+        <br><br>
+        <textarea placeholder="Descripción Archivo Seleccionado"></textarea>
+        <br>
+        <button class="btn btn-primary bg-color-1" style="border: none;">GUARDAR BANNER</button>
+        </form>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- USUARIO -->
+<div class="modal fade" id="usuarios" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">AGREGAR USUARIO</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+        <form>
+       	<input type="type" name="nombre" placeholder="Nombre completo" class="form-control">
+      
+       	<select class="form-control" style="margin-bottom: 10px;">
+       		<option value="Seleccionar Ciudad">Seleccionar Ciudad</option>
+       	</select>
+       	<input type="tel" name="nombre" placeholder="Teléfono / Celular" class="form-control">
+       	<input type="email" name="nombre" placeholder="Email" class="form-control">
+       	<select class="form-control">
+       		<option value="Seleccionar Rol">Seleccionar Rol</option>
+       	</select>
+        <button class="btn btn-primary bg-color-1" style="border: none;">GUARDAR USUARIO</button>
+        </form>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ITEMS -->
+<div class="modal fade" id="items" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">AGREGAR ITEMS</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+        <form class="items">
+			<input type="type" name="titulo" placeholder="Título" class="form-control">
+			<select class="form-control">
+			  <option>Seleccionar Ciudad</option>
+			</select>
+			<select class="form-control">
+			  <option>Seleccionar Categoria</option>
+			</select>	
+			<select class="form-control">
+			  <option>Seleccionar SubCategoria</option>
+			</select>
+			<button class="btn btn-primary bg-color-1" style="border: none;">GUARDAR USUARIO</button>
+        </form>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CATEGORIA -->
+<div class="modal fade" id="categoria" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">AGREGAR CATEGORIA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+        <form class="items">
+			<input type="type" name="titulo" class="form-control">
+			<textarea class="form-control"></textarea>
+			<p style="padding-bottom: 5px; padding-top: 5px; margin-bottom: 0;">Agregar imagen categoria:</p>
+			<button class="btn btn-primary bg-color-1" style="border: none; margin-top: 0; margin-bottom: 10px;">Seleccionar Archivo</button>
+      		<img src="img/esi.png" class="img-fluid">
+      		<p><small>Tamaño recomendado 300px * 150px</small></p>
+      		
+      	<div class="text-left" style="margin-left: 10%;">	
+      		<p>Lista de ciudades:</p>
+      		<div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="lapaz">
+			  <label class="form-check-label" for="defaultCheck1">
+				La Paz
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="oruro">
+			  <label class="form-check-label" for="defaultCheck1">
+				Oruro
+			  </label>
+			 </div>
+			 <div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="potosi">
+			  <label class="form-check-label" for="defaultCheck1">
+				Potosi
+			  </label>
+			 </div>
+			 <div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="tarija">
+			  <label class="form-check-label" for="defaultCheck1">
+				Tarija
+			  </label>
+			 </div>
+			 <div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="sucre">
+			  <label class="form-check-label" for="defaultCheck1">
+				Sucre
+			  </label>
+			 </div>
+			 <div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="cochabamba">
+			  <label class="form-check-label" for="defaultCheck1">
+				Cochabamba
+			  </label>
+			 </div>
+			 <div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="santacruz">
+			  <label class="form-check-label" for="defaultCheck1">
+				Santa Cruz
+			  </label>
+			 </div>
+			 <div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="trinidad">
+			  <label class="form-check-label" for="defaultCheck1">
+				Trinidad
+			  </label>
+			 </div>
+			 <div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="cobija">
+			  <label class="form-check-label" for="defaultCheck1">
+				Cobija
+			  </label>
+			  </div>
+       		</div>
+       		<br>
+       		<button class="btn btn-primary bg-color-1" style="border: none; margin-top: 0; margin-bottom: 10px;">GUARDAR USUARIO</button>
+        </form>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- SUB CATEORIA -->
+<div class="modal fade" id="subcategoria" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">AGREGAR SUBCATEGORIA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+        <form class="items">
+			<input type="type" name="titulo" placeholder="Nombre Sub Categoria" class="form-control">
+			<select class="form-control">
+			  <option></option>
+			  <option>Celula Express</option>
+			  <option>Open Box</option>
+			  <option>Academy Xperts</option>
+			  <option>Security Experts</option>
+			</select>
+			<button class="btn btn-primary bg-color-1" style="border: none;">GUARDAR USUARIO</button>
+        </form>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- SUB CATEORIA -->
+<div class="modal fade" id="ciudad" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">AGREGAR SUBCATEGORIA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+        <form class="items">
+			<input type="type" name="titulo" placeholder="Nombre Ciudad" class="form-control">
+			<input type="type" name="titulo" placeholder="Dirección Ciudad" class="form-control">
+		
+			<button class="btn btn-primary bg-color-1" style="border: none;">GUARDAR USUARIO</button>
+        </form>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER -->
+<div class="modal fade" id="banner" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">AGREGAR BANNER</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+        <form class="items">
+			<input type="type" name="titulo" class="form-control">
+			<textarea class="form-control"></textarea>
+			<select class="form-control" style="margin-top: 10px;">
+			  <option>Seleccionar Ciudad</option>
+			</select>
+			<p style="padding-bottom: 5px; padding-top: 5px; margin-bottom: 0;">Agregar Sub Categoria</p>
+			<button class="btn btn-primary bg-color-1" style="border: none; margin-top: 0; margin-bottom: 10px;">Seleccionar Archivo</button>
+      		<img src="img/esi.png" class="img-fluid">
+      		<p><small>Tamaño recomendado 1600px * 580px</small></p>
+      		<label>Color de Titulo</label>
+			<input type="color">
+       		<label>Color de Descripción</label>
+			<input type="color">
+       		<button class="btn btn-primary bg-color-1" style="border: none;">GUARDAR BANNER</button>
+        </form>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- ROLES -->
+<div class="modal fade" id="roles" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">AGREGAR ROLE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+        <form class="items">
+			<input type="type" name="titulo" class="form-control">
+			<input type="type" name="titulo" class="form-control">
+			<textarea class="form-control"></textarea>
+			<p style="margin-bottom: 0;"><strong>Permiso Especial</strong></p>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+			  <label class="form-check-label" for="exampleRadios1">
+				Acceso total
+			  </label>
+			</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+		  <label class="form-check-label" for="exampleRadios2">
+			Ningún acceso 
+		  </label>
+		</div>
+		<div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="op1">
+			  <label class="form-check-label" for="defaultCheck3">
+				Navegar ciudad (Lista y navega todas las ciudades del sistema)
+			  </label>
+			 </div>
+			 <div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="op2">
+			  <label class="form-check-label" for="defaultCheck4">
+				Navegar ciudad (Lista y navega todas las ciudades del sistema)
+			  </label>
+			  </div>
+			<button class="btn btn-primary bg-color-1" style="border: none;">GUARDAR USUARIO</button>
+        </form>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- PERMISOS -->
+<div class="modal fade" id="permisos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">AGREGAR ROLE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+        <form class="items">
+			<input type="type" name="titulo" class="form-control">
+			<input type="type" name="titulo" class="form-control">
+			<textarea class="form-control"></textarea>
+			
+			<button class="btn btn-primary bg-color-1" style="border: none;">GUARDAR USUARIO</button>
+        </form>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- INSTRUCCIONES -->
+<div class="modal fade" id="instrucciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">AGREGAR BANNER</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+        <h5>SUBIR FOTO PRINCIPAL DEL INSTRUCCION</h5>
+        <form>
+        <button class="btn btn-primary bg-color-1" style="border: none;">Selecccionar Archivo</button>
+        <br><br>
+        <img src="img/esi.png" class="img-fluid">
+        <p>Tamaño recomendado 400px * 450px. <br> Peso máximo de la foto 2MB</p>
+        <h5>SUBIR PDF PRINCIPAL DEL INSTRUCCION</h5>
+        <button class="btn btn-primary bg-color-1" style="border: none;">Seleccionar Archivo</button>
+        <br><br>
+        <input type="url" placeholder="URL Video" class="form-control-file" style="padding-left: 10%; padding-right: 10%; margin-bottom: 0;">
+        <button class="btn btn-primary bg-color-1" style="border: none;">Subir video</button>
+        <br><br>
+        <button class="btn btn-primary bg-color-1" style="border: none;">GUARDAR</button>
+        </form>
+        
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

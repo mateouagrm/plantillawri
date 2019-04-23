@@ -1,0 +1,1135 @@
+@charset "utf-8";
+
+
+/* INDEX */
+
+.only-small{
+	display: none;
+}
+
+body{
+	max-width: 100%;
+}
+
+a{
+	cursor: pointer;
+}
+.color-1{
+	
+	color: #D4AE16 !important;
+}
+
+
+.bg-color-1{
+	background-color: #D4AE16;
+}
+.bg-color-2{
+	background-color: rgba(132,132,132,1.00);
+}
+
+
+.pre-nav{
+	background-color: black;
+	color: white;
+	
+}
+.pre-nav a{
+	color: white;	
+}
+.logo{
+	max-height: 60px;
+	margin-right: 60px;
+}
+.carousel-inner img {
+    width: 100%;
+    max-height: 600px;
+}
+
+.carousel-inner{
+ height: 550px;
+}
+.carousel-caption {
+  width: 300px;	
+  position: absolute;
+  right: 15%;
+  bottom: 100px;
+  left: 39%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0,0,0,0.70);
+}
+#principal{
+	height: 600px;
+	background-image: url(../img/slider.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+#principal p{
+	color: white;
+	font-size: 24px;
+	background-color: rgba(0,0,0,0.60);
+	width: 240px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 450px;
+
+}
+#valores{
+	font-size: 12px;
+	margin-top: 10px;
+}
+#valores p{
+
+	line-height: 1%;
+}
+#pre-articulo{
+	height: 200px;
+	background-image: url(../img/bg01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#pre-articulo img{
+	margin-top: 110px;	
+}
+.box-number{
+	height: 150px;
+	padding: 60px;
+}
+.box-number p{
+	font-size: 24px;
+	line-height: 70%;
+}
+#primer-titulo{
+	margin-top: 50px;
+}
+#recursos{
+	margin-top: 70px;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom: 30px;
+}
+#pdf{
+	font-size: 60px;
+	color: white;
+}
+#pdf img{
+	margin-bottom: 0;
+}
+#pdf a{
+	margin-top: 0;
+}
+.cursos-1{
+	background-color: darkgray;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.titulo-cursos h1{
+	padding-top: 30px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.titulo-cursos span{
+	color: white;
+}
+.card{
+	margin-bottom: 20px;
+}
+.card-title{
+	padding: 2px;
+}
+#banner-cursos{
+
+	margin-top: 20px;
+	text-align: center;
+}
+#banner-cursos p{
+	padding: 5px;
+	margin-top: 0;
+	background-color: #D4AE16;
+	font-size: 15px;
+}
+#banner-cursos button{
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border: #D4AE16 solid 1px;
+	font-size: 18px;
+	border-radius: 15px 15px 15px 15px;
+}
+.card-body{
+	background-color: rgba(203,203,203,1.00);
+}
+#segundo-titulo{
+	padding: 100px;
+}
+#xperts{
+	margin-left: 240px;
+}
+.celulas{
+	padding: 20px;
+	border: #D4AE16 solid 1px !important;
+	border-radius: 15px 15px 15px 15px;
+	margin-left: 10px;
+	margin-bottom: 20px;	
+}
+.btn-ciudad{
+	background-color: #D4AE16;
+}
+#footer{
+	color: white;
+	background-color: rgba(46,46,46,1.00);
+	border-top: 8px rgba(149,149,149,1.00) solid;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+form input{
+	margin-bottom: 10px;
+}
+form button{
+	margin-top: 10px;
+}
+
+#derechos{
+	background-color: black;
+	color: white;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+#social a{
+	color: white;
+}
+#social a:hover{
+	color: #D4AE16;
+}
+#social span{
+	margin-left: 10px;
+}
+
+/* RESPONSIVE
+   ========================================================================= */
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 1199px) { 
+	
+	.medium-none{
+		display: none;
+	}
+
+	.carousel-inner img {
+    width: 100%;
+    max-height: 600px;
+}
+
+.carousel-inner{
+ height: 550px;
+}
+.carousel-caption {
+  width: 300px;	
+  position: absolute;
+  right: 15%;
+  bottom: 100px;
+  left: 31%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0,0,0,0.70);
+}
+
+	#recursos{
+	margin-top: 70px;
+	margin-left: 35px;
+	margin-right: 0;
+	margin-bottom: 30px;
+}	
+.cursos-1{
+	margin-left: 0px;
+	margin-right: 00px;
+}
+.titulo-cursos h1{
+	padding-top: 30px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.titulo-cursos span{
+	color: white;
+}
+.card{
+	margin-bottom: 20px;
+}
+.card-title{
+	padding: 2px;
+}
+
+#banner-cursos p{
+	padding: 5px;
+	margin-top: 400px;
+	background-color: #D4AE16;
+	font-size: 15px;
+}
+#banner-cursos button{
+	padding: 20px;
+	margin-bottom: 50px;
+	background-color: black;
+	color: white;
+	border: #D4AE16 solid 1px;
+	font-size: 18px;
+	border-radius: 15px 15px 15px 15px;
+}
+#segundo-titulo{
+	padding: 20px;
+}
+#xperts{
+	margin-left: 0;
+	padding: 0;
+}
+.celulas{
+	padding: 20px;
+	border: #D4AE16 solid 1px !important;
+	border-radius: 15px 15px 15px 15px;
+	margin-left: 10px;
+	margin-bottom: 20px;	
+	max-width: 90%;
+}
+.btn-ciudad{
+	background-color: #D4AE16;
+}
+#footer{
+	color: white;
+	background-color: rgba(46,46,46,1.00);
+	border-top: 8px rgba(149,149,149,1.00) solid;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+form input{
+	margin-bottom: 10px;
+}
+form button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#derechos{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	font-size: 12px;
+}
+
+#social{ 
+	display: none; 
+}
+
+.off-small{
+		display: none;		
+}
+
+
+
+}
+ 
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 767px) { 
+	.carousel-inner img {
+    width: 100%;
+    max-height: 600px;
+}
+
+.carousel-inner{
+ height: 350px;
+}
+.carousel-caption {
+  width: 300px;	
+  position: absolute;
+  right: 15%;
+  bottom: 100px;
+  left: 39%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0,0,0,0.70);
+}
+
+	#recursos{
+	margin-top: 70px;
+	margin-left: 65px;
+	margin-right: 0;
+	margin-bottom: 30px;
+}	
+.cursos-1{
+	margin-left: 0px;
+	margin-right: 00px;
+}
+.titulo-cursos h1{
+	padding-top: 30px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.titulo-cursos span{
+	color: white;
+}
+.card{
+	margin-bottom: 20px;
+}
+.card-title{
+	padding: 2px;
+}
+
+#banner-cursos p{
+	padding: 5px;
+	margin-top: 400px;
+	background-color: #D4AE16;
+	font-size: 15px;
+}
+#banner-cursos button{
+	padding: 20px;
+	margin-bottom: 50px;
+	background-color: black;
+	color: white;
+	border: #D4AE16 solid 1px;
+	font-size: 18px;
+	border-radius: 15px 15px 15px 15px;
+}
+#segundo-titulo{
+	padding: 20px;
+}
+#xperts{
+	margin-left: 0;
+	padding: 0;
+}
+.celulas{
+	padding: 20px;
+	border: #D4AE16 solid 1px !important;
+	border-radius: 15px 15px 15px 15px;
+	margin-left: 10px;
+	margin-bottom: 20px;	
+	max-width: 90%;
+}
+.btn-ciudad{
+	background-color: #D4AE16;
+}
+#footer{
+	color: white;
+	background-color: rgba(46,46,46,1.00);
+	border-top: 8px rgba(149,149,149,1.00) solid;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+form input{
+	margin-bottom: 10px;
+}
+form button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#derechos{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	font-size: 12px;
+}
+
+#social{ 
+	display: none; 
+}
+
+.off-small{
+		display: none;		
+}
+
+
+}
+ 
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+.carousel-inner img {
+    width: 100%;
+    max-height: 600px;
+}
+
+.carousel-inner{
+ height: 250px;
+}
+.carousel-caption {
+  width: 300px;	
+  position: absolute;
+  right: 15%;
+  bottom: 100px;
+  left: 39%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0,0,0,0.70);
+}
+
+	#recursos{
+	margin-top: 70px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 30px;
+}	
+.cursos-1{
+	margin-left: 0px;
+	margin-right: 00px;
+}
+.titulo-cursos h1{
+	padding-top: 30px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.titulo-cursos span{
+	color: white;
+}
+.card{
+	margin-bottom: 20px;
+}
+.card-title{
+	padding: 2px;
+}
+
+#banner-cursos p{
+	padding: 5px;
+	margin-top: 400px;
+	background-color: #D4AE16;
+	font-size: 15px;
+}
+#banner-cursos button{
+	padding: 20px;
+	margin-bottom: 50px;
+	background-color: black;
+	color: white;
+	border: #D4AE16 solid 1px;
+	font-size: 18px;
+	border-radius: 15px 15px 15px 15px;
+}
+#segundo-titulo{
+	padding: 20px;
+}
+#xperts{
+	margin-left: 0;
+	padding: 0;
+}
+.celulas{
+	padding: 20px;
+	border: #D4AE16 solid 1px !important;
+	border-radius: 15px 15px 15px 15px;
+	margin-left: 10px;
+	margin-bottom: 20px;	
+	max-width: 90%;
+}
+.btn-ciudad{
+	background-color: #D4AE16;
+}
+#footer{
+	color: white;
+	background-color: rgba(46,46,46,1.00);
+	border-top: 8px rgba(149,149,149,1.00) solid;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+form input{
+	margin-bottom: 10px;
+}
+form button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#derechos{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	font-size: 12px;
+}
+
+#social{ 
+	display: none; 
+}
+
+.off-small{
+		display: none;		
+}
+
+}
+
+
+/* ADMIN */
+
+#menu-principal{
+	border: 1px #D4AE16 solid;
+}
+
+#menu-principal img{
+	padding: 25px;
+	width: 210px;
+}
+
+
+#menu-principal ul {
+  list-style-type: none;
+	margin-left: 30px;
+}
+
+ #menu-principal li {
+  position: relative;
+  font-size: 18px;	
+ padding-bottom: 20px;
+}
+
+#menu-principal li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10px; /* adjust to suit your needs */
+  height: 10px; /* adjust to suit your needs */
+  border-radius: 0;
+  left: -20px; /* adjust to suit your needs */
+  top: 0.5em;
+  background: #D4AE16; /* adjust to suit your needs */
+}
+
+ #menu-principal a {
+  text-decoration: none;
+  color: black;
+	 
+}
+#sub-menu{
+	color:white;
+	display: flex; 
+	justify-content: center;
+	margin-top: 20px
+}
+#sub-menu span{
+	padding-right: 15px;
+	font-size: 21px;
+}
+#admin a{
+	color:white;
+}
+
+#ubicacion-actual{
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+	margin-top: 50px;
+	}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+#dashboard-admin{
+	background-color: white;
+	position: absolute;
+	padding: 50px;
+	box-shadow: 2px 5px #D4AE16;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 40px;
+	margin-top: -100px;
+}
+
+#dashboard-admin h3{
+	margin-right: 20px;
+	
+
+}
+#dashboard-admin button{
+	margin-right: 20px;	
+
+}
+#dash-1{
+	display: flex;
+}
+#other-option{
+	margin-top: 20px; color: white;
+}
+.items select{
+	margin-bottom: 10px;
+}
+.vc-chrome {
+	position: absolute;
+	top: 35px;
+	right: 0;
+	z-index: 9;
+}
+.current-color {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-color: #000;
+	cursor: pointer;
+}
+
+/* RESPONSIVE 
+   ========================================================================= */
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 769px) and (max-width: 1199px) { 
+#admin{padding: 0; margin: 0;}
+#other-option a{
+	text-align: center;
+}
+#ubicacion-actual p{
+	text-align: center;
+}	
+#menu-principal{
+	border: 1px #D4AE16 solid;
+}
+
+#menu-principal img{
+	padding: 25px;
+	width: 150px;
+}
+
+
+#menu-principal ul {
+  list-style-type: none;
+	margin-left: 0;
+}
+
+
+ #menu-principal a {
+  text-decoration: none;
+  color: black;
+	 
+}
+
+
+
+}
+ 
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 768px) { 
+	#admin{padding: 0; margin: 0;}
+#other-option a{
+	text-align: center;
+}
+#ubicacion-actual p{
+	text-align: center;
+}
+.only-small{
+	display: block;
+}
+
+.off-small2{
+    display: none;		
+}
+#dash-1{
+	display: block;
+}
+#dashboard-admin{
+	background-color: white;
+	position: absolute;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 30px;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 25px;
+	margin-top: -100px;
+}
+	#dashboard-admin form{
+		width: 300px;
+		display: flex;
+	}
+}
+
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+	#admin{padding: 0; margin: 0;}
+#other-option a{
+	text-align: center;
+}
+#ubicacion-actual p{
+	text-align: center;
+}
+.only-small{
+	display: block;
+}
+
+.off-small2{
+		display: none;		
+}
+#dash-1{
+	display: block;
+}
+#dashboard-admin{
+	background-color: white;
+	position: absolute;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow: none;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: -100px;
+}
+	#dashboard-admin form{
+		width: 300px;
+		display: flex;
+	}
+}
+
+/*PANEL DE USUARIO*/
+
+.bonos p{
+	margin-left: 30px;
+}
+.bonos span{
+	position: absolute;
+}
+#dashboard-panel{
+	width: 94%;
+	background-color: white;
+	position: absolute;
+	padding: 50px;
+	box-shadow: 2px 5px #D4AE16;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 40px;
+	margin-top: -100px;
+}
+
+#dashboard-panel h3{
+	margin-right: 20px;
+	
+
+}
+#dashboard-panel button{
+	margin-right: 20px;	
+
+}
+#form-perfil{
+margin-top: 20px;
+margin-left: 80px;
+
+}
+#chat-online{
+	padding-left: 80px;
+	padding-right: 80px;
+}
+#chat-send{
+	border: 1px rgba(208,208,208,1.00) solid;
+}
+#nombre-chat{
+	border-bottom: 1px rgba(208,208,208,1.00) solid;
+	color: white;
+	background-color: #D4AE16;
+	}
+#nombre-chat p{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+#pantalla-chat{
+padding-top: 10px;
+height: 300px;	
+border-bottom: 1px solid rgba(208,208,208,1.00);	
+margin-bottom: 10px;
+}
+#enviar{
+	margin: 0;
+	border: none;
+	width: 100%;
+}
+.bonos-padding{
+	padding-left: 65px;
+}
+/* RESPONSIVE 
+   ========================================================================= */
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 769px) and (max-width: 1199px) { 
+	#dashboard-panel{
+		background-color: white;
+		position: absolute;
+		padding-top: 30px;
+		padding-bottom: 50px;
+		padding-left: 0;
+		padding-right: 0;
+		box-shadow: none;
+		border-radius: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: -100px;
+	}
+	#form-perfil{
+		margin-left:30px;
+	}
+	.footer-usuarios{
+		margin-top: 300px;
+	}
+
+	.bonos-padding{
+	padding-left: 5px;
+}
+#chat-online{
+	padding-left: 30px;
+	padding-right: 30px;
+}	
+
+}
+ 
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 768px) { 
+#dashboard-panel{
+	background-color: white;
+	position: absolute;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow: none;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: -100px;
+}
+	#form-perfil{
+		margin-left:30px;
+	}
+	.footer-usuarios{
+		margin-top: 300px;
+	}
+		.bonos-padding{
+	padding-left: 5px;
+}
+#chat-online{
+	padding-left: 30px;
+	padding-right: 30px;
+}	
+}
+
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+	#admin{padding: 0; margin: 0;}
+#other-option a{
+	text-align: center;
+}
+#ubicacion-actual p{
+	text-align: center;
+}
+.only-small{
+	display: block;
+}
+
+.off-small2{
+		display: none;		
+}
+#dash-1{
+	display: block;
+}
+#dashboard-panel{
+	background-color: white;
+	position: absolute;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow: none;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: -100px;
+}
+	#form-perfil{
+		margin-left:30px;
+	}
+	.footer-usuarios{
+		margin-top: 300px;
+	}
+	.bonos-padding{
+	padding-left: 5px;
+}
+#chat-online{
+	padding-left: 30px;
+	padding-right: 30px;
+}	
+}
+
+/*Cursos*/
+#elegir-ciudad{
+	padding-top: 40px;
+
+}
+#elegir-ciudad h3{
+	border:2px #D4AE16 solid;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom:5px;
+	padding-top: 0 ;
+	
+}
+#buscar-curso input{
+	width: 600px;
+	margin-left: 80px;
+}
+.creditos{
+	margin-left: 150px;
+}
+#cursos-1{
+  display: flex;
+  justify-content: center;
+	padding: 50px;
+}
+
+
+/* RESPONSIVE 
+   ========================================================================= */
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 769px) and (max-width: 1199px) { 
+
+}
+ 
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 768px) { 
+#elegir-ciudad{
+	padding-top: 40px;
+}
+
+#elegir-ciudad select{
+	margin-left:10px;
+	margin-top: 20px;
+	width: 300px;
+}	
+#buscar-curso input{
+	width: 200px;
+	margin-left: 10px;
+}
+}
+
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+#elegir-ciudad{
+	padding-top: 40px;
+}
+
+#elegir-ciudad select{
+	margin-left:10px;
+	margin-top: 20px;
+	width: 300px;
+}	
+#buscar-curso input{
+	width: 200px;
+	margin-left: 10px;
+}
+}
+
+/*Cursos*/
+#elegir-ciudad{
+	padding-top: 40px;
+
+}
+#fechas p{
+	line-height: 3px;
+}
+#fechas small{
+	background-color: rgba(9,58,45,1.00);
+	color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px 10px 10px 10px;
+	
+}
+#botones-detalles button{
+	margin-top: 50px;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	
+}
+
+
+/* RESPONSIVE 
+   ========================================================================= */
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 769px) and (max-width: 1199px) { 
+
+}
+ 
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 768px) { 
+#elegir-ciudad{
+	padding-top: 40px;
+}
+
+#elegir-ciudad select{
+	margin-left:10px;
+	margin-top: 20px;
+	width: 300px;
+}	
+#buscar-curso input{
+	width: 200px;
+	margin-left: 10px;
+}
+}
+
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+#elegir-ciudad{
+	padding-top: 40px;
+}
+
+#elegir-ciudad select{
+	margin-left:10px;
+	margin-top: 20px;
+	width: 300px;
+}	
+#buscar-curso input{
+	width: 200px;
+	margin-left: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
